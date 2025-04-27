@@ -10,8 +10,8 @@ This is a end to end project using pandas for cleaning, Postgresql for database 
 
  
 ## Step 2 -  Cleaning the data and preprocessing
--Analyzed the data by looking at the schema of the data and found that most of the columns were not in the right data type so had to change the sale_date column to datetime datatype.
--I Extracted two new columns for my analysis such as Quarter and month column from sale date.
+- Analyzed the data by looking at the schema of the data and found that most of the columns were not in the right data type so had to change the sale_date column to datetime datatype.
+- I Extracted two new columns for my analysis such as Quarter and month column from sale date.
 - Sales amount column had incorrect values so I modified that column with new formula for accurate results.
 - This data did not have null values or duplicate data to work with.
 - Made sure all the column names were in correct format so used trim,lower and strip function.
